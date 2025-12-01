@@ -63,7 +63,7 @@ public class LoginTest extends BaseTest {
     }
 
     @Test
-    void enterWith1s() {
+    public void enterWith1s() {
         loginPage.open();
         loginPage.isPageOpen();
         loginPage.enterWith1sButtonClick();
@@ -74,7 +74,7 @@ public class LoginTest extends BaseTest {
     }
 
     @Test
-    void switchToEnglishVersion() {
+    public void switchToEnglishVersion() {
         loginPage.open();
         loginPage.isPageOpen();
         loginPage.clickToEnglishSwitcher();
