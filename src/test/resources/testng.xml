@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Test" parallel="tests" thread-count="2">
+
+    <test name="home">
+        <groups>
+            <run>
+                <include name="slow" />
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.HomeTest" />
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="login">
+        <classes>
+            <class name="tests.LoginTest" />
+        </classes>
+    </test> <!-- Test -->
+
+</suite>
