@@ -8,7 +8,7 @@ public class AccountFactory {
                 .sname("pkj;l")
                 .lname(";klj")
                 .phone("rtrtuy")
-                .dolzn("o[dofkpdfkov")
+                .dolzn("odofkpdfkov")
                 .inn("")
                 .build();
     }

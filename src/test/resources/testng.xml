@@ -3,11 +3,6 @@
 <suite name="Regression Test" parallel="tests" thread-count="2">
 
     <test name="home">
-        <groups>
-            <run>
-                <include name="slow" />
-            </run>
-        </groups>
         <classes>
             <class name="tests.HomeTest" />
         </classes>
