@@ -14,5 +14,4 @@ public class Account {
     String phone;
     String dolzn;
     String inn;
-
 }

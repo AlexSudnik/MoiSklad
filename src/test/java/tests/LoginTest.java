@@ -11,7 +11,7 @@ import static org.testng.Assert.assertTrue;
 
 public class LoginTest extends BaseTest {
 
-    private static final Logger log = LoggerFactory.getLogger(LoginTest.class);
+    //private static final Logger log = LoggerFactory.getLogger(LoginTest.class);
 
     @DataProvider(name = "for tests data")
     public Object[][] inputForITechTask() {
